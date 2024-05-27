@@ -1,0 +1,108 @@
+body {
+    background-image: url("../images/jazz_background.jpg"), linear-gradient(to bottom, #000, #ff8800);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: Karbon-Regular;
+}
+
+a {
+    color: #fff;
+}
+
+.header {
+    padding: 10px;
+    margin-bottom: 58px;
+}
+
+.header__logo {
+    width: 100px;
+    display: block;
+}
+
+.header__nav {
+    margin-left: auto;
+    width: max-content;
+
+}
+
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: red;
+}
+
+h1 + .hero__description {
+    color: aqua;
+}
+
+
+p {
+    font-family: Karbon-Regular;
+    font-size: 20px;
+    line-height: 120%;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    text-align: justify !important;
+    color: yellow;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.hero__title {
+    font-family: Karbon-Regular;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 120%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 4px !important;
+
+}
+
+div p {
+    color: blueviolet;
+}
+
+a[class^="trial lesson"] {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    max-width: 252px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+a[class^="trial lesson"]:hover,
+a[class^="trial lesson"]:focus {
+    background: #ff6a00;
+    color: white;
+}
+
+a[class^="trial lesson"]:active {
+    opacity: .5;
+}
